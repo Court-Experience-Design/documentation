@@ -67,6 +67,18 @@ blockquote {
   text-shadow: none;
 }
 
+.shadow {
+  transition: transform .4s;
+  box-shadow: 2px 2px 2px grey;
+}
+
+.shadow:hover {
+  -ms-transform: scale(1.03); /* IE 9 */
+  -webkit-transform: scale(1.03); /* Safari 3-8 */
+  transform: scale(1.03); 
+  box-shadow: 2px 2px 10px grey;
+}
+
 img::-moz-selection {
   color: #fff;
   background: transparent;
